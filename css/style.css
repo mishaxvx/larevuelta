@@ -289,7 +289,7 @@ input:hover{
 	
 }
 #elementocreativo {
-	position: absolute;
+	position: relative;
 
 	animation: bee 3s linear infinite;
 	
@@ -297,13 +297,13 @@ input:hover{
 }
 @keyframes bee {
 	0%{
-		position: absolute;
+		position: relative;
 		left: 24em;
 		transform: translate(350px);
 
 	}
 	100%{
-		position: absolute;
+		position: relative;
 		left: -13em;
 
 	}
